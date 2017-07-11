@@ -273,7 +273,7 @@ public class Gview extends SurfaceView implements SurfaceHolder.Callback {
                         dialog.dismiss();
                     }
                 });
-                alert.setMessage("리겜 ㄱㄱ?");
+                alert.setMessage("재경기 하시겠습니까?");
                 alert.setNegativeButton("NO", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
