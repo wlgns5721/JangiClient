@@ -80,6 +80,10 @@ public class ChatActivity extends Activity {
         };
     };
 
+    @Override public void onBackPressed() {
+        //super.onBackPressed();
+    }
+
 
 
 }
